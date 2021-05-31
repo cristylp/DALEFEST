@@ -19,7 +19,7 @@ const RsvpPage = () => {
             </div>
 
             <div className="rsvp_form">
-                <Form method="post" action="https://formspree.io/{your-unique-getform-endpoint}">
+                <Form method="post" action="https://formspree.io/f/xnqldzez">
                     <Col className="contactrow">
                         <Form.Control placeholder="Nombre" className="placeholder" />
                     </Col>

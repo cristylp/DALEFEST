@@ -22,6 +22,7 @@ body {
 
 .navlink{
   margin-left: auto;
+  margin-bottom: auto;
   flex-direction: row;
   display:flex;
   height:100%;
