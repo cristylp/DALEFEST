@@ -237,7 +237,7 @@ const PanamaPage = () => {
                     <img className="LocationPic" src={Catalina} alt="Playa Santa Catalina" />
                     <h2 className="locationText3">SANTA CATALINA</h2>
                     <ul className="LocationInfoRight">
-                        <li>catalina's Hideaway</li>
+                        <li>Catalina's Hideaway</li>
                         <li>Nativo Boutique Hotel</li>
                     </ul>
                 </div>
@@ -260,6 +260,27 @@ const PanamaPage = () => {
                         <li>Bocas del Mar</li>
                         <li>El regalo Resort</li>
                     </ul>
+                </div>
+            </div>
+
+            <hr class="solid" />
+
+
+            <div className="paragraph">
+                <h2 className="titleText">RESTAURANTES</h2>
+            </div>
+            <div className="LastfullWidth">
+                <div className="paragraphRight2">
+                    <h2 className="locationText4">CASUALES</h2>
+                    <p className="basicInfo">Tacos la Neta (comida mexicana) <br /> Gentile (comida mediteránea e internacional) <br /> Lucca Trattoria (comida italiana casual) <br /> Ciao Ragazzi (comida italiana casual) <br /> Magoo Fish Rcos (tacos de pescado) <br /> Republicano (hamburguesas) <br /> Beauty and the Butcher (comida americana) <br /> Café Bilal (comida libanesa e internacional) <br /> Amano (bar y comida casual) <br /> Blue Moon Tap House (cervecería y comida internacional) <br /> Casa Stizzoli (comida italiana) <br /> Segundo Muelle (comida peruana) <br /> Londoners Restaurant (comida internacional) <br /> Panos Kretan House (pizzas/ comida griega) <br /> Slabón (hamburguesas) <br /> Botánica Pizza <br /> Esa Flaca Rica (hamburguesas) <br /> Antiburger <br /> Cantina del Tigre (ceviche/ mariscos) <br /> Parrillada Jimmy's (griego) </p>
+                    <h2 className="locationText4">COMIDA PANAMEÑA</h2>
+                    <p className="basicInfo">Fonda lo que Hay (comida gourment panameña) <br />Salsipuedes (comida gourment panameña) <br /> Tinajas (comida típica panameña con show folclórico) <br /> El Trapiche (desayuno, almuerzo y cena autónomo panameño) </p>
+                </div>
+                <div className="paragraphLeft2">
+                    <h2 className="locationText5">MÁS UPSCALE</h2>
+                    <p className="basicInfoRight">Maito (comida internacional, Latam 50 Best Restaurants) <br /> Makoto (comida fusión asiática) <br /> Acha, La casa del Marisco (mariscos e internacional) <br /> Los Años Locos (steak house e internacional) <br /> Gauchos (steak house) <br /> Meze (comida mediteránea/ griega) <br /> Siete Mares (mariscos e internacional) <br /> Isaki (japonesa y fusión) <br /> Azahar (fusión internacional) <br /> Azafrán (comida internacional) <br /> Brutto (comida internacional) <br /> Salvaje Rooftop (comida japonesa) <br /> Vinoteca (comida italiana)</p>
+                    <h2 className="locationText5">BRUNCH/DESAYUNO</h2>
+                    <p className="basicInfoRight">Café Unido <br /> LOCAL <br /> Mika Bazar <br /> Mentiritas Blancas <br /> NY Bagel <br /> Brew Coffee Company <br /> Leto Coffee Brew Bar <br /> Vitali <br /> Dos Cucharas <br /> Golden Unicorn (desayuno chino) <br />Palacio Lung Fung (desayuno chino)</p>
                 </div>
             </div>
 
