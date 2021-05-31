@@ -1,0 +1,43 @@
+.fullWidth{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.paragraphRight {
+    position: relative;
+    width: 48%;
+    margin-left: 10%;
+    margin-right: 3%;
+    text-align: center;
+    padding-top: 6%;
+}
+
+.locationText {
+    color: #5a5c54;
+    font-weight: 600;
+    padding-bottom: 2%;
+    letter-spacing: 2px;
+}
+
+.paragraphLeft {
+    position: relative;
+    width: 48%;
+    margin-left: 3%;
+    margin-right: 10%;
+    text-align: center;
+    padding-top: 6%;
+}
+
+.hotelPic {
+    min-height: 80%;
+    min-width: 100% !important;
+    object-fit: cover;
+    margin-bottom: 4%;
+}
+
+.hotelName {
+    color: #79917c;
+    font-weight: 450;
+}

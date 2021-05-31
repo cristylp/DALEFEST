@@ -1,0 +1,36 @@
+.home{
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+}
+
+.hashtag {
+  position: absolute;
+  bottom: 20%;
+  left: 23%;
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.paragraph{
+    text-align: center;
+    padding-top: 4%;
+}
+
+.titleText {
+    color: #5a5c54;
+    font-weight: 600;
+}
+
+.paragraph p {
+    color: #79917c;
+    font-weight: 450;
+}

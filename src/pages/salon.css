@@ -1,0 +1,23 @@
+.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.citasInfo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.selector {
+    justify-content: space-around;
+}
+
+label.form-check-label {
+    font-size: 14px;
+}
