@@ -1,8 +1,17 @@
+.rsvp-container{
+  height: 100vh;
+  position: relative;
+}
+
 .titleText {
     color: #5a5c54;
     font-weight: 600;
     padding-bottom: 3%;
     padding-top: 3%;
+}
+
+.title-rsvp{
+  text-align: center;
 }
 
 .paragraph p {
@@ -63,4 +72,107 @@
 
 .whatsappnumber {
   margin-bottom: 5%;
+}
+
+.hoja-rsvp1{
+  position: absolute;
+  bottom: 0;
+  height: 30%;
+}
+
+.hoja-rsvp2{
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  height: 40%;
+}
+
+.hoja-rsvp3{
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  height: 20%;
+}
+
+.hoja-rsvp4{
+  position: absolute;
+  height: 40%;
+  top: 15%;
+}
+
+@media (max-width: px){
+  .hoja-rsvp2 {
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    height: 40%;
+  }
+  .hoja-rsvp1 {
+    position: absolute;
+    bottom: 0;
+    height: 25%;
+  }
+  .rsvp-container {
+    height: 90vh;
+    position: relative;
+  }
+
+}
+
+@media (max-width: 900px){
+  .hoja-rsvp1 {
+    position: absolute;
+    bottom: 0;
+    height: 25%;
+  }
+  .hoja-rsvp2 {
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    height: 35%;
+  }
+  .hoja-rsvp3 {
+    position: absolute;
+    bottom: 0;
+    right: 8%;
+    height: 16%;
+  }
+  .hoja-rsvp4 {
+    position: absolute;
+    height: 35%;
+    top: 15%;
+  }
+  .contactrow{
+    width: 60%;
+  }
+}
+
+@media (max-width: 730px){
+  .hoja-rsvp4 {
+    position: absolute;
+    height: 26%;
+    top: 22%;
+  }
+  .hoja-rsvp3 {
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+    height: 13%;
+  }
+
+  .hoja-rsvp2 {
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    height: 25%;
+  }
+  .hoja-rsvp1 {
+    position: absolute;
+    bottom: 0;
+    height: 20%;
+  }
+  .rsvp-container {
+    height: 90vh;
+    position: relative;
+  }
 }

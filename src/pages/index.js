@@ -1,9 +1,8 @@
 import * as React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import "../pages/index.css"
 import Navigation from "../components/Navbar"
 import Homepage from "../pages/home"
-
-
 
 const IndexPage = () => {
   return (
