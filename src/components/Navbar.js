@@ -138,8 +138,8 @@ export class Navigation extends Component {
                       Conoce Panamá
                     </NavLink>
 
-                    <NavLink to='#' className="navlink"
-                     activeClassName="active">
+                    <NavLink to='https://mixoconcept.com/products/certificado-de-regalo' className="navlink"
+                     activeClassName="active" target="_blank">
                       Regalo
                     </NavLink>
 

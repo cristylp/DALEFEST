@@ -1,206 +1,163 @@
-.container-eventos{
-    width: 100vw;
-    overflow: hidden;
-    position: relative;
-    padding-bottom: 200px;
+#eventos-container{
+  padding-bottom: 300px;
 }
 
-.titleText {
-    color: #5a5c54;
-    font-weight: 600;
-    padding-bottom: 3%;
-    padding-top: 3%;
-    text-align: center;
+.hoja-evento1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10%;
 }
 
-.evento-box{
-  overflow: hidden;
-  width: 50%;
-  margin: auto;
-  padding: 30px 0;
+.hoja-evento2 {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    width: 10%;
+}
+
+.hoja-evento3 {
+    position: absolute;
+    width: 8%;
+    top: 7%;
+}
+
+.hoja-evento4 {
+    position: absolute;
+    width: 10%;
+    top: 55%;
+}
+
+.eventos{
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+}
+
+.evento {
+  width: 55%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.img-evento{
+  object-fit: contain;
+  width: 100%;
+  height: 17vh;
+}
+
+.title-evento{
+  color: #5A5C54;
+  font-weight: bolder;
+}
+
+.text-evento{
+  color: #5A5C54;
 }
 
 #pinterest-link{
   color: #FF8C68;
-  font-weight: bold;
-  margin-top: 15px;
 }
 
-.icon-evento {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height: 13vh
-}
-
-.title-evento{
-    margin: 0;
-    text-align: center;
-}
-
-.text-evento{
-  margin: 0;
-  text-align: center;
-}
-
-#dress-code{
-  margin-top: 20px;
-  font-style: italic;
-}
-
-.hoja-eventos1{
-  position: absolute;
-  height: 20%;
-  top: 15%;
-}
-
-.hoja-eventos2{
-  position: absolute;
-  right: 0;
-  top: 35%;
-  height: 20%;
-}
-
-.hoja-eventos3{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  height: 15%;
-}
-
-.hoja-eventos4{
-  position: absolute;
-  bottom: 15%;
-  height: 15%;
-}
-
-@media (max-width: 900px){
-  .hoja-eventos1 {
+@media only screen and (max-width: 1136px){
+  .hoja-evento1 {
     position: absolute;
-    height: 15%;
-    top: 15%;
-  }
-  .hoja-eventos2 {
-    position: absolute;
-    right: 0;
-    top: 35%;
-    height: 15%;
-  }
-  .hoja-eventos3 {
-    position: absolute;
-    right: 0;
     bottom: 0;
-    height: 13%;
+    right: 0;
+    width: 16%;
   }
-  .hoja-eventos4 {
+  .hoja-evento4 {
     position: absolute;
-    bottom: 15%;
-    height: 13%;
+    width: 15%;
+    top: 72%;
+  }
+  .hoja-evento3 {
+    position: absolute;
+    width: 13%;
+    top: 18%;
+  }
+  .hoja-evento2 {
+    position: absolute;
+    right: 0;
+    top: 43%;
+    width: 16%;
+  }
+  .title-evento{
+    color: #5A5C54;
+    font-weight: bolder;
+    font-size: 35px;
+  }
+  .text-evento{
+    font-size: 16px;
   }
 
-.evento-box {
-    overflow: hidden;
-    width: 50%;
-    margin: auto;
-    margin-bottom: 30px;
+.img-evento {
+    object-fit: contain;
+    width: 100%;
+    height: 10vh;
+  }
+  .evento {
+    width: 55%;
+    text-align: center;
+    margin-bottom: 10px;
   }
 }
 
-@media (max-width: 730px){
-  .hoja-eventos1 {
+@media only screen and (max-width: 768px){
+
+  .hoja-evento1 {
     position: absolute;
-    height: 12%;
-    top: 15%;
-  }
-  .hoja-eventos2 {
-    position: absolute;
-    right: 0;
-    top: 40%;
-    height: 12%;
-  }
-  .hoja-eventos4 {
-    position: absolute;
-    bottom: 15%;
-    height: 10%;
-  }
-  .hoja-eventos3 {
-    position: absolute;
-    right: 0;
     bottom: 0;
-    height: 11%;
+    right: 0;
+    height: 16%;
   }
-  .title-evento {
-    margin: 0;
-    text-align: center;
+  .title-evento{
+    color: #5A5C54;
+    font-weight: bolder;
     font-size: 20px;
   }
-  .text-evento {
-    margin: 0;
-    text-align: center;
-    font-size: 15px;
+  .text-evento{
+    font-size: 14px;
   }
-  .evento-box {
-    margin-bottom: 0;
-    width: 90%;
+  #eventos-container {
+    padding-bottom: 150px;
   }
 }
 
-
-@media (max-width: 280px){
-  .hoja-eventos1 {
+@media only screen and (max-width: 428px){
+  .hoja-evento4 {
     position: absolute;
-    height: 9%;
-    top: 15%;
+    width: 18%;
+    top: 72%;
   }
-  .hoja-eventos2 {
+  .hoja-evento3 {
+    position: absolute;
+    width: 15%;
+    top: 12%;
+  }
+  .hoja-evento2 {
     position: absolute;
     right: 0;
-    top: 40%;
-    height: 10%;
+    top: 37%;
+    width: 23%;
   }
-  .hoja-eventos4 {
+  .hoja-evento1 {
     position: absolute;
-    bottom: 20%;
-    height: 8%;
-  }
-}
-
-@media (max-width: 375px){
-  .hoja-eventos2 {
-    position: absolute;
+    bottom: 0;
     right: 0;
-    top: 40%;
     height: 10%;
   }
-  .hoja-eventos4 {
-    position: absolute;
-    bottom: 18%;
-    height: 9%;
+  .title-evento{
+    font-size: 18px;
+  }
+
+  .text-evento{
+    font-size: 11px;
+  }
+  .img-evento {
+    object-fit: contain;
+    width: 100%;
+    height: 8vh;
   }
 }
-
-
-@media (max-widtht: 320px){
-  .hoja-eventos1 {
-    position: absolute;
-    height: 10%;
-    top: 14%;
-  }
-  .hoja-eventos2 {
-    position: absolute;
-    right: 0;
-    top: 40%;
-    height: 9%;
-  }
-  .hoja-eventos4 {
-    position: absolute;
-    bottom: 20%;
-    height: 9%;
-  }
-}
-
-

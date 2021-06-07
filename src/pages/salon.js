@@ -15,15 +15,14 @@ const SalonPage = () => {
         <>
             <Navigation />
             <title>DALE - SALÓN DE BELLEZA</title>
-            <div className="salon-container">
+
+            <div className="container-page">
               <img src={hoja1} alt="" class="hoja-rsvp1"/>
               <img src={hoja2} alt="" class="hoja-rsvp2"/>
-              <img src={hoja4} alt="" class="hoja-rsvp3"/>
-              <img src={hoja3} alt="" class="hoja-rsvp4"/>
-              <div className="paragraph">
-                  <img className="icon" src={Icons1} alt="Productos de belleza" />
-                  <p className="citasInfo">Si deseas hacer cita en el salón de belleza para el día de la boda, déjanos tus datos aquí:</p>
-                  {/* <Link to="/">Back Home</Link> */}
+              <img src={hoja3} alt="" class="hoja-rsvp3"/>
+              <img src={hoja4} alt="" class="hoja-rsvp4"/>
+              <div className="title-box">
+               <img src={Icons1} alt="" className="img-evento"/>
               </div>
 
               <div className="rsvp_form">
@@ -56,12 +55,19 @@ const SalonPage = () => {
                   </Form>
               </div>
 
-              <div className="paragraph2">
-                  <p className="underline">Para más información:</p>
-                  <p>dale2021@gmail.com <br />W: (+507) 6672-4269 </p>
+              <div className="contact-text">
+                <p className="contact-title">
+                  Para más información
+                </p>
+                <hr id="solid-contact" className="" />
+                <p className="contact-text">
+                  dale2021@gmail.com
+                </p>
+                <p className="contact-text">
+                  W: (+507) 6672-4269
+                </p>
               </div>
             </div>
-
         </>
     )
 }

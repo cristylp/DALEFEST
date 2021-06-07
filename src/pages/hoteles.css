@@ -1,210 +1,208 @@
-.hotels-container{
-  height: 100vh;
-  position: relative;
+#container-hoteles{
+  padding-bottom: 300px;
 }
 
-.fullWidth{
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-  justify-content: center;
-  margin: auto;
-  padding-top: 50px;
-  flex-wrap: wrap;
+.hoja-hotel1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
-.paragraphRight {
-    width: 48%;
-    text-align: center;
-    height: 70%;
+.hoja-hotel2 {
+  position: absolute;
+  width: 8%;
+  top: 15%;
 }
 
-.airbnb{
+.hoja-hotel3 {
+    position: absolute;
+    right: 0;
+    top: 37%;
+    width: 7%;
+}
+
+.hoja-hotel4 {
+    position: absolute;
+    top: 58%;
+    width: 18%;
+    left: 23%;
+}
+
+.hoteles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.hotel{
+  width: 40%;
+  margin-bottom: 45px;
+}
+
+.imghotel{
   width: 100%;
-  color: #5a5c54;
-  text-align: center;
-  margin-top: -90px;
-  font-size: 23px;
-}
-
-.airbnb a{
-  color: #FF8C68;
-
-}
-
-.paragraphLeft {
-    width: 48%;
-    text-align: center;
-    height: 70%;
-}
-
-.locationText {
-    color: #5a5c54;
-    font-weight: 600;
-    letter-spacing: 2px;
-    height: 10%;
-}
-
-
-.hotelPic {
-  height: 80%;
-  width: 90%;
+  height: 70%;
   object-fit: cover;
   margin-bottom: 20px;
 }
 
-.hotelName {
-    color: #79917c;
-    font-weight: 450;
-    height: 10%;
-    margin: 0;
+.hotel-title{
+  color: #5A5C54;
+  text-align: center;
 }
 
-.hoja-hotel1{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 25%;
+.hotel-subtitle{
+  color: #707654;
+  text-align: center;
+  font-size: 25px;
 }
 
-.hoja-hotel2{
-  position: absolute;
-  left: 0;
-  height: 35%;
-  top: 20%;
+
+#hotel-link-text{
+  font-size: 18px;
 }
 
-.hoja-hotel3{
-  display: none;
+#hotel-link{
+  color: #FF8C68;
 }
 
-@media (max-width: 1200px){
+.airbnb{
+  text-align: center;
+  font-size: 25px;
+  color: #5A5C54;
+}
 
-  .airbnb{
-    font-size: 16px;
-  }
-  .fullWidth {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 100px;
-  }
-
-  .paragraphRight {
-    width: 100%;
-    text-align: center;
-    height: 45%;
-  }
-
-  .hotelPic {
-    width: 65%;
-    height: 70%;
-  }
-
-  .paragraphLeft {
-    width: 100%;
-    text-align: center;
-    height: 45%;
-  }
-
-  .hoja-hotel3{
-    display: block;
+@media only screen and (max-width: 1136px){
+  .hoja-hotel3 {
     position: absolute;
     right: 0;
-    top: 40%;
-    height: 20%;
+    top: 45%;
+    width: 13%;
   }
-  #hoteltext{
-    text-align: center ;
-  }
-  .hotels-container {
-    height: 100vh;
-    position: relative;
-    padding-bottom: 100px;
-  }
-  #hotel-fullwidth{
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-    justify-content: center;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 100px;
-  }
-  .airbnb{
-    margin-top: 20px;
-  }
-}
-
-@media (max-width: 900px){
-  .fullWidth {
-    padding-top: 0;
-  }
-  .locationText{
-    font-size: 25px;
-  }
-  .hotelName{
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 730px){
-  .hotelPic {
-    width: 90%;
-    height: 70%;
-  }
-
   .hoja-hotel2 {
     position: absolute;
-    left: 0;
-    height: 27%;
-    top: 20%;
+    width: 13%;
+    top: 31%;
   }
-
   .hoja-hotel1 {
     position: absolute;
     bottom: 0;
     right: 0;
-    height: 18%;
+    width: 35%;
+  }
+  .hotel {
+    width: 40%;
+    margin-bottom: 110px;
+  }
+  .hotel-title{
+    font-size: 30px;
+  }
+  .hotel-subtitle{
+    font-size: 16px;
+  }
+  #hotel-link-text{
+    font-size: 16px;
   }
 }
 
-@media (max-width: 320px){
-  #hotel-fullwidth {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    min-height: 100vh;
-    justify-content: center;
+@media only screen and (max-width: 768px){
+  .hoja-hotel4 {
+    position: absolute;
+    top: 68%;
+    width: 20%;
+    left: 12%;
+  }
+  .hoja-hotel2 {
+    position: absolute;
+    width: 13%;
+    top: 24%;
+  }
+  .hotel-title{
+    font-size: 20px;
+  }
+  .hoteles {
+    display: block;
+    flex-wrap: wrap;
+    width: 80%;
     margin: auto;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    justify-content: space-around;
+    margin-top: 60px;
   }
-  .paragraphRight {
+  .hotel {
     width: 100%;
-    text-align: center;
-    height: 35%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .paragraphLeft {
-    width: 100%;
-    text-align: center;
-    height: 35%;
+  .imghotel {
+    width: 70%;
+    height: 27vh;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  .hotel-subtitle{
+    font-size: 14px;
+  }
+  #hotel-link-text{
+    font-size: 14px;
   }
   .airbnb {
-    font-size: 14px;
-    width: 52%;
-    margin-top: 33px;
+    text-align: center;
+    font-size: 18px;
+    color: #5A5C54;
+  }
+
+
+}
+
+@media only screen and (max-width: 428px){
+  .hoja-hotel4 {
+    position: absolute;
+    top: 68%;
+    width: 20%;
+    left: 12%;
+    display: none;
+  }
+  .hoja-hotel3 {
+    position: absolute;
+    right: 0;
+    top: 68%;
+    width: 19%;
+  }
+
+  .hoja-hotel2 {
+    position: absolute;
+    width: 17%;
+    top: 30%;
+  }
+  #container-hoteles {
+    padding-bottom: 106px;
+  }
+  .hotel-title{
+    font-size: 18px;
+  }
+  .imghotel {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  .hotel-subtitle{
+    font-size: 11px;
+  }
+  #hotel-link-text{
+    font-size: 11px;
+  }
+  .airbnb {
+    text-align: center;
+    font-size: 16px;
+    color: #5A5C54;
+    width: 65%;
+    margin: auto;
   }
 }
 
-@media (max-width: 414px){
-  .airbnb {
-    width: 80%
-  }
-}
